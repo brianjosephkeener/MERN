@@ -1,0 +1,11 @@
+mkdir project_name
+cd project_name
+npm init-y
+npm i express mongoose cors
+touch server.js
+mkdir -p server/config -p server/models -p server/routes -p server/controllers
+npx create-react-app client
+cd client
+npm install react-router-dom@5 axios bootstrap
+cd ..
+code .

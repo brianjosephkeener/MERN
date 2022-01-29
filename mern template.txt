@@ -1,0 +1,52 @@
+react: 
+
+#1A:  npx create-react-app your-project-name-here
+
+#1B: npm install react-router-dom@5
+
+#1C: $npm install express --save || npm install -g nodemon || npm install mongoose
+
+
+#2 npm start for react 
+#2A node server.js for express
+
+
+#3 cd "c:/Program Files/MongoDB/Server/5.0/bin/"
+mongosh
+OR 
+mongo.exe
+
+
+----
+
+MERN FULL STACK
+
+BACKEND STEPS
+
+(new folder for project)
+
+1. npm init -y
+2. npm install express
+3. npm install mongoose
+4. {
+Mac: touch server.js
+Windows: copy nul server.js
+}
+5. Then, within the server.js add the following code:
+// {
+
+const express = require('express');
+const app = express();
+const port = 8000;
+    
+app.listen(port, () => console.log(`Listening on port: ${port}`) );
+
+// }
+
+6. npx create-react-app client (Make sure you are in the same folder level as your "server.js".)
+
+7. Make a folder called server in main project directory then place 4 other empty folders called: config , controllers , models , routes
+
+8. npm install axios
+
+9. npm install cors
